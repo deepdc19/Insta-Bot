@@ -93,6 +93,6 @@ class Insta_bot:
 
 
 if __name__ == '__main__':
-    my_bot = Insta_bot('9429737871','deepqwertyuiop','deepchaudhary_._')
+    my_bot = Insta_bot(fb_id,pw,insta_id)
     my_bot.login_with_facebook()
     my_bot.visit_followers()
